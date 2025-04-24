@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atualizar Endereços Base</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      max-width: 500px;
+      margin: auto;
+    }
+    label {
+      display: block;
+      margin-top: 1rem;
+    }
+    input {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.3rem;
+    }
+    button {
+      margin-top: 1.5rem;
+      padding: 0.7rem;
+      width: 100%;
+      font-size: 1rem;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h2>Atualizar Endereços Base</h2>
+  <label for="http">HTTP Base URL:</label>
+  <input type="text" id="http" placeholder="https://suaapi.com" />
+
+  <label for="ws">WebSocket Base URL:</label>
+  <input type="text" id="ws" placeholder="wss://seusocket.com" />
+
+  <button onclick="gerarJSON()">Gerar config.json</button>
+
+  <script>
+    function gerarJSON() {
+      const http = document.getElementById('http').value;
+      const ws = document.getElementById('ws').value;
+
+      const data = {
+        httpBaseUrl: http,
+        wsBaseUrl: ws,
+      };
+
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'config.json';
+      a.click();
+    }
+  </script>
+</body>
+</html>

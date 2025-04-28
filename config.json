@@ -1,4 +1,4 @@
 {
-  "httpBaseUrl": "http://192.168.1.104:8000",
-  "wsBaseUrl": "ws://192.168.1.104:8000"
+  "httpBaseUrl": "https://b0b3-143-255-185-1.ngrok-free.app ",
+  "wsBaseUrl": "https://b0b3-143-255-185-1.ngrok-free.app "
 }

@@ -1,7 +1,7 @@
 {
-  "httpBaseUrl": "https://b33d-143-255-185-36.ngrok-free.app",
-  "wsBaseUrl": "wss://b33d-143-255-185-36.ngrok-free.app",
-  "versao": "1.0.1",
+  "httpBaseUrl": "https://dec5-143-255-185-36.ngrok-free.app",
+  "wsBaseUrl": "wss://dec5-143-255-185-36.ngrok-free.app",
+  "versao": "1.0.1.1",
   "screens": {
     "ChatScreen": "https://raw.githubusercontent.com/eltonjung81/atualizarfront/master/ChatScreen.js",
     "ConsultaScreen": "https://raw.githubusercontent.com/eltonjung81/atualizarfront/master/ConsultaScreen.js",

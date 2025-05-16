@@ -1,4 +1,15 @@
 {
   "httpBaseUrl": "https://b33d-143-255-185-36.ngrok-free.app",
-  "wsBaseUrl": "wss://b33d-143-255-185-36.ngrok-free.app"
+  "wsBaseUrl": "wss://b33d-143-255-185-36.ngrok-free.app",
+  "versao": "1.0.1",
+  "screens": {
+    "ChatScreen": "https://raw.githubusercontent.com/eltonjung81/atualizarfront/main/ChatScreen.js",
+    "ConsultaScreen": "https://raw.githubusercontent.com/eltonjung81/atualizarfront/main/ConsultaScreen.js",
+    "CorridaScreen": "https://raw.githubusercontent.com/eltonjung81/atualizarfront/main/CorridaScreen.js",
+    "FreightScreen": "https://raw.githubusercontent.com/eltonjung81/atualizarfront/main/FreightScreen.js",
+    "LoadingScreen": "https://raw.githubusercontent.com/eltonjung81/atualizarfront/main/LoadingScreen.js",
+    "LoginScreen": "https://raw.githubusercontent.com/eltonjung81/atualizarfront/main/LoginScreen.js",
+    "RegisterScreen": "https://raw.githubusercontent.com/eltonjung81/atualizarfront/main/RegisterScreen.js",
+    "SelecaoModalidadeScreen": "https://raw.githubusercontent.com/eltonjung81/atualizarfront/main/SelecaoModalidadeScreen.js"
+  }
 }

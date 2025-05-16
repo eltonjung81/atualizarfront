@@ -1,4 +1,3 @@
-// src/screens/SelecaoModalidadeScreen.js
 import { Platform } from 'react-native';
 import React, { useEffect, useCallback, useState } from 'react';
 import {
@@ -194,4 +193,3 @@ const styles = StyleSheet.create({
 });
 
 export default SelecaoModalidadeScreen;
-

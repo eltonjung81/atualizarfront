@@ -1,6 +1,6 @@
 {
-  "httpBaseUrl": "https://98dd117e1e18.ngrok-free.app",
-  "wsBaseUrl": "wss://98dd117e1e18.ngrok-free.app",
+  "httpBaseUrl": "https://b74c65206ba7.ngrok-free.app",
+  "wsBaseUrl": "wss://b74c65206ba7.ngrok-free.app",
   "versao": "1.0.1.5",
   "downloadUrls": {
     "android": "https://play.google.com/store/apps/details?id=com.multimobi.app",
